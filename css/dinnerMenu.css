@@ -1,0 +1,72 @@
+/**********  MENU CSS *******************/
+
+#menuWrap{
+	background-image: url("../assets/img/floorBig.jpeg");
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 5em;
+
+}
+
+#dinnerMenu{
+	background: transparent;
+	color: black;
+	
+}
+
+h1 {
+	display: inline-block;
+}
+
+h1 {
+	color: white;
+	width: 100px;
+	text-align: center;
+	line-height:90px;
+	border: 6px solid white;
+	border-radius:50%;
+	text-shadow: 0px 0px 1em white;
+  box-shadow: 0px 0px 20px white;
+
+}
+
+h2 {
+	font-size: 1.8em;
+	border-top: 6px solid black;
+	padding-left:1%;
+	padding-top: 2%;
+	background: white;
+	box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+}
+
+
+ div.header {
+	text-transform: uppercase;
+	max-width: 50%;
+	text-align:left;
+	margin-left:0;
+	padding:0;
+	font-family: special elite;
+}
+
+
+div.item {
+	background: white;
+	font-family: Cutive Mono;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 5px;
+  padding: 1em;
+	
+}
+
+div#disclosure {
+	background: white;
+	font-family: Cutive Mono;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}

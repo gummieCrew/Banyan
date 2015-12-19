@@ -1,0 +1,39 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 120px; important!
+}
+
+/*************** NAV CSS **************/
+
+/* WHOLE NAV */
+#nav {
+	border:none;
+	font-family:Waiting for the Sunrise;
+
+}
+
+#navbar {
+	background: white;
+	border-bottom: 4px outset #153815;
+}
+
+/* IMAGE SIZING */
+img#brandImg {
+	max-height: 120px; important!
+	margin: auto;
+}
+
+
+/*   NAV CENTERING */
+ul#navList {
+	padding-top: 3%;
+	margin-right:4%;
+	margin-left: 4%;
+	padding-bottom:1%;
+	font-size: 125%;
+	letter-spacing: 2px;
+	color: black;
+}
+
+
+

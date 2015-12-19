@@ -1,0 +1,71 @@
+/**********  MENU CSS *******************/
+
+#menuWrap{
+	background-image: url("../assets/img/floorBig.jpeg");
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 5em;
+}
+
+#dinnerMenu{
+	background: transparent;
+	color: black;
+	padding-bottom: 5em;
+	
+}
+h1 {
+	display: inline-block;
+}
+
+h1 {
+	color: white;
+	width: 100px;
+	text-align: center;
+	line-height:90px;
+	border: 6px solid white;
+	border-radius:50%;
+	text-shadow: 0px 0px 1em white;
+  box-shadow: 0px 0px 20px white;
+	font-family: special elite;
+}
+
+h2, h3 {
+	display:inline;
+}
+
+h4#title {
+	margin-top: 20px;
+}
+
+ div.header {
+ 	background: white;
+ 	max-width: 100%;
+	margin:20px 0px 10px 0px;
+	padding-left:1%;
+	padding-top: 2%;	
+	text-transform: uppercase;
+	font-family: special elite;
+	border-top: 6px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+
+
+}
+
+
+div.item {
+	text-align:left;
+	margin:0px 0px 1em 0px;
+	background: white;
+	font-family: Cutive Mono;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 5px;
+  padding: 1em;
+	
+}
+
+
+div#cocktailsItem h4 {
+
+margin-bottom: 1.5em;
+}

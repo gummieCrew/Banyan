@@ -1,0 +1,275 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 120px; important!
+}
+
+/*************** NAV CSS **************/
+
+/* WHOLE NAV */
+#nav {
+	border:none;
+	font-family:Waiting for the Sunrise;
+
+}
+
+div#navList {
+	text-align: center;
+}
+
+#navbar {
+	background: white;
+	border-bottom: 4px outset #153815;
+}
+
+/* IMAGE SIZING */
+img#brandImg {
+	max-height: 120px; important!
+	margin: auto;
+}
+
+
+/*   NAV CENTERING */
+ul#navList {
+	padding-top: 3%;
+	margin-right:4%;
+	margin-left: 4%;
+	padding-bottom:1%;
+	font-size: 125%;
+	letter-spacing: 2px;
+	color: black;
+}
+
+
+/************ INDEX IMAGES ******/
+
+
+#headline.jumbo {
+	background-image: url("../assets/img/smokedscallop.jpeg");
+}
+
+#about.jumbo {
+	background-image: url("../assets/img/actOyster.jpeg");
+}
+
+#space.jumbo {
+	background-image: url("../assets/img/chair60s.jpeg");
+}
+
+#team1.jumbo{
+	background-image: url("../assets/img/poke.jpg");
+}
+
+#team2.jumbo{
+	background-image: url("../assets/img/takoyaki.jpeg");
+}
+
+#team3{
+	background-image: url("../assets/img/kChair.jpeg");
+}
+
+#headlineGG.jumbo {
+	background-image: url("../assets/img/gallowsLeatherBooth.jpg");
+}
+
+#spaceGG.jumbo {
+	background-image: url("../assets/img/gallowsBackBar.jpeg");
+}
+
+
+
+/* .jumbo decoration */
+
+.jumbo {
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	
+}
+
+/************ WHOLE PAGE ***************/
+
+#indexWrap {
+	padding:0;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+#median.row {
+	box-shadow: 0px 0px 20px #50626B;
+	margin-bottom: 5px;
+
+}
+
+
+p {
+	font-family: waiting for the sunrise;
+	font-size: 3em;	
+	
+}
+
+.col-sm-8 {
+	margin: 4% 16.666665%;
+}
+
+.col-xs-8 {
+	margin: 4% 16.666665%;
+}
+
+hr {
+	border-top: 1px solid #5CB85C;
+	clear:both;
+	}
+
+
+/************ #HEADLINE ***************/
+
+/* #top */
+
+h1#top {
+	font-size: 8em;
+	font-family: Teko;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 15px #3C763D;
+	text-transform: uppercase;
+
+}
+
+p#top {
+	color: #FFF;
+  text-shadow: 0px 0px 20px #263807;
+  font-size: 3em;
+  		
+}
+
+/* #median */
+
+
+#median.col-xs-8 {
+	margin: 0 16.666665%;
+}
+
+
+
+/************ #ABOUT ***************/
+
+div.about.row {
+	padding: 4%;
+}
+
+
+/************ #SPACE ***************/
+
+div#median.row>div {
+	padding: 4%;
+}
+
+
+/************ #TEAM ***************/
+
+{}
+
+/************ #HEADLINE ***************/
+
+h1#top.headlineGG {
+		font-size: 8em;
+    font-family: Teko;
+    color: #231510;
+    text-shadow: 0px 0px 15px #CA684B;
+    text-transform: uppercase;
+	
+}
+
+p#top.headlineGG {
+		color: #FFF;
+    text-shadow: 0px 0px 20px #CA684B;
+    font-size: 4em;
+
+}
+
+/************* FOOTER CSS ***********/
+
+/* Whole footer */
+#footerWrap {
+	font-family: teko;
+	background: white;
+	padding-bottom: 3em;
+	letter-spacing: 1.5px;
+	font-size: 1em;
+	color: #153815;
+	text-transform: uppercase;
+	text-align: center;
+	box-shadow: 0px 1px 10px 5px white;
+	border-top: 4px inset #153815;
+
+}
+
+/* Headings */
+
+h4.media-heading{
+	padding-top: 3em;
+	font-size: 1.3em;
+	color:#A29B82;
+	text-shadow: 0em 0em 2em #153815;
+}
+
+
+/* SOCIAL MEDIA */
+
+#socialMedia {
+	margin-bottom: 1em;
+}
+
+/* Media Style */
+
+
+img.media-object {
+	background: #3F3F3F;
+	padding: 5px;
+  border-radius: 4px;
+}
+
+/* List Style */
+div#mediaItem, #email {
+	width: 200px
+}
+
+img#mediaIcon {
+	background: #3F3F3F;
+	padding: 5px;
+  border-radius: 4px;
+	margin: 5px;
+	display:inline
+	
+
+}
+
+/* LOCATION  */
+
+address {
+	margin-bottom: 0; important!
+}
+
+div#address, #phone {
+	width: 200px;
+}
+
+dt.media-heading{
+	font-size: .90em;
+	color:#153815;
+}
+
+/* HOURS */
+
+dl {
+	list-style: none;
+}
+
+/* Restaurant Group */
+
+#restGroup {
+}
+
+a.media-heading {
+	font-size: .90em;
+	color:#153815;
+}
